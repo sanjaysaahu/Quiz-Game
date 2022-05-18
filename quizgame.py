@@ -12,7 +12,7 @@ class Quiz:
 
     def check_answer(self, user_answer, correct_answer):
         if user_answer.lower() == correct_answer.lower():
-            print("YAY! you got it right")
+            print("YAY you got it right")
             self.score += 1
         else:
             print("That's a wrong answer")
